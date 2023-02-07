@@ -27,7 +27,7 @@ rock_btn.onclick = function () {
   let computerChoice = choices[Math.floor(Math.random() * choices.length)];
   console.log(computerChoice);
   computer.classList.add(computerChoice);
-
+  console.log("rock");
   user.classList.remove("rock");
   user.classList.remove("paper");
   user.classList.remove("scissors");
@@ -55,7 +55,7 @@ paper_btn.onclick = function () {
   let computerChoice = choices[Math.floor(Math.random() * choices.length)];
   console.log(computerChoice);
   computer.classList.add(computerChoice);
-
+  console.log("paper");
   user.classList.remove("rock");
   user.classList.remove("paper");
   user.classList.remove("scissors");
@@ -83,7 +83,7 @@ scissors_btn.onclick = function () {
   let computerChoice = choices[Math.floor(Math.random() * choices.length)];
   console.log(computerChoice);
   computer.classList.add(computerChoice);
-
+  console.log("scissors");
   user.classList.remove("rock");
   user.classList.remove("paper");
   user.classList.remove("scissors");
